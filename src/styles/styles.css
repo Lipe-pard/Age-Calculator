@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 20%;
+}
+
+.input-form label {
+  color: hsl(0, 1%, 44%);
+  font-weight: 700;
+}
+
+.input-form input {
+  padding: 1rem;
+  border: 2px solid hsl(0, 0%, 86%);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: transparent;
+  font-size: 32px;
+  font-weight: 800;
+}
+.input-form input::-moz-placeholder {
+  font-size: 32px;
+}
+.input-form input::placeholder {
+  font-size: 32px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  width: 90%;
+  margin: 5% auto;
+  background-color: hsl(0, 0%, 94%);
+  border-radius: 1rem;
+  box-shadow: -5px 3px 65px 3px rgba(0, 0, 0, 0.156);
+  padding: 4rem;
+}
+
+#card {
+  position: relative;
+  background-color: hsl(0, 0%, 100%);
+  width: 60%;
+  padding: 2rem;
+  border-radius: 1rem 1rem 10rem 1rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#card #form-group {
+  gap: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+#button-group {
+  width: 100%;
+}
+#button-group hr {
+  width: 90%;
+  border: 1px solid hsl(0, 0%, 86%);
+  margin: 1rem 0;
+}
+#button-group button {
+  background-color: hsl(259, 100%, 65%);
+  border: none;
+  padding: 1rem;
+  border-radius: 100%;
+  position: absolute;
+  right: 15%;
+  bottom: 56%;
+}
+
+#result div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+#result h1 {
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+}
+#result .numeric {
+  color: hsl(259, 100%, 65%);
+}/*# sourceMappingURL=styles.css.map */

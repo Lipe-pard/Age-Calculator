@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import '_variable.scss';
+@import '_input.scss';
+
+@mixin flexCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    width: 90%;
+    margin: 5% auto;
+    background-color: $off-white;
+    border-radius: 1rem;
+    -webkit-box-shadow: -5px 3px 65px 3px rgba(0, 0, 0, 0.156);
+    -moz-box-shadow: -5px 3px 65px 3px rgba(0, 0, 0, 0.156);
+    box-shadow: -5px 3px 65px 3px rgba(0, 0, 0, 0.156);
+    padding: 4rem;
+}
+
+#card{
+    position: relative;
+    background-color: $white;
+    width: 60%;
+    padding: 2rem;
+    border-radius: 1rem 1rem 10rem 1rem;
+    margin: 0 auto;
+    @include flexCenter(column);
+    #form-group{
+        gap: 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+}
+#button-group{
+    width: 100%;
+    hr{
+        width: 90%;
+        border: 1px solid $light-grey;
+        margin: 1rem 0;
+    }
+    button{
+        background-color: $primary-purple;
+        border: none;
+        padding: 1rem;
+        border-radius: 100%;
+        position: absolute;
+        right: 15%;
+        bottom: 56%;
+    }
+}
+#result{
+    div{
+        @include flexCenter(row);
+        gap: 1rem;
+    }
+    h1{
+        font-size: 60px;
+        font-weight: 900;
+        font-style: italic;
+    }
+    .numeric{
+        color: $primary-purple;
+    }
+}
