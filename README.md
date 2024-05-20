@@ -6,6 +6,13 @@
 
 Participei do desafio da plataforma Frontend Mentor, onde desenvolvi uma calculadora de anos vividos utilizando JavaScript. Nesta aplicação, o usuário insere sua data de nascimento e o JavaScript realiza o cálculo para determinar quantos anos ele viveu até o momento. Além disso, aproveitei a oportunidade para aprimorar minhas habilidades de estilização utilizando Sass, tornando a interface mais atraente e responsiva. Link do desafio: https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q
 
+### Como Utilizar
+
+Se você quiser ver o projeto em ação, pode acessar este link onde ele foi implantado: [Age Calculator](https://lipe-pard.github.io/Age-Calculator/). Mas se preferir visualizar o projeto em sua própria máquina, basta ter o Git instalado. Se ainda não o tiver, você pode baixá-lo e instalá-lo a partir deste link: [Git](https://git-scm.com/). Agora caso tenha o git instaldo é somente rodar o seguinte comando no seu terminal:
+~~~
+git clone https://github.com/Lipe-pard/Age-Calculator.git
+~~~
+
 ### Técnologias Utilizadas
 
 <div>
