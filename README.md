@@ -19,7 +19,7 @@ Participei do desafio da plataforma Frontend Mentor, onde desenvolvi uma calcula
     alt="icon"/>
 </div>
 
-### Contatos: 
+### Contatos
 
 <div style="display: inline-block">
     <a href="mailto:pardinhorh@gmail.com">
