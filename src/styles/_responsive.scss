@@ -1,0 +1,57 @@
+@media screen and (max-width: 600px) {
+    section{
+        width: 100% !important;
+        height: 90vh;
+        padding: 1rem !important; 
+        margin: 2% auto !important;
+
+        #card{
+            height: 90vh;
+            width: 100%;
+            #form-group{
+                margin: 1rem 0;
+            }
+            #button-group{
+                margin: 1rem 0;
+                hr{
+                    width: 100%;
+                }
+                button{
+                    padding: 0.6rem;
+                    bottom: 48%;
+                    right: 40%;
+                    img{
+                        width: 70%;
+                        height: 70%;
+                    }
+                }
+            }
+
+            #result{
+                margin: 1rem 0;
+                h1{
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    section{
+        #card{
+            width: 90%;
+
+            #button-group{
+                width: 100%;
+                margin: 3rem 0;
+                hr{
+                    width: 100%;
+                }
+                button{
+                    right: 43%;
+                }
+            }
+        }
+    }
+}

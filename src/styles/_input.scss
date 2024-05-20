@@ -22,3 +22,27 @@
         font-size: 32px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .input-form{
+        width: 30%;
+    }
+    .input-form label{
+        font-size: 16px;
+        font-weight: 600;
+        margin: 4rem 0 0 0;
+    }
+
+    .input-form input{
+        font-size: 16px;
+        &::placeholder{
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .input-form{
+        width: 30%;
+    }
+}

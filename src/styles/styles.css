@@ -27,6 +27,81 @@
   font-size: 32px;
 }
 
+@media screen and (max-width: 600px) {
+  .input-form {
+    width: 30%;
+  }
+  .input-form label {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 4rem 0 0 0;
+  }
+  .input-form input {
+    font-size: 16px;
+  }
+  .input-form input::-moz-placeholder {
+    font-size: 16px;
+  }
+  .input-form input::placeholder {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .input-form {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 600px) {
+  section {
+    width: 100% !important;
+    height: 90vh;
+    padding: 1rem !important;
+    margin: 2% auto !important;
+  }
+  section #card {
+    height: 90vh;
+    width: 100%;
+  }
+  section #card #form-group {
+    margin: 1rem 0;
+  }
+  section #card #button-group {
+    margin: 1rem 0;
+  }
+  section #card #button-group hr {
+    width: 100%;
+  }
+  section #card #button-group button {
+    padding: 0.6rem;
+    bottom: 48%;
+    right: 40%;
+  }
+  section #card #button-group button img {
+    width: 70%;
+    height: 70%;
+  }
+  section #card #result {
+    margin: 1rem 0;
+  }
+  section #card #result h1 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  section #card {
+    width: 90%;
+  }
+  section #card #button-group {
+    width: 100%;
+    margin: 3rem 0;
+  }
+  section #card #button-group hr {
+    width: 100%;
+  }
+  section #card #button-group button {
+    right: 43%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -45,10 +120,6 @@ section {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-}
-section i {
-  font-size: 5rem;
-  color: hsl(259, 100%, 65%);
 }
 
 #card {
