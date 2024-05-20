@@ -1,4 +1,4 @@
-<img src="./src/assets/print_screen.jpeg" alt="print da tela"/>
+<img src="./src/assets/print-page.jpeg" alt="print da tela"/>
 
 # Age Calculator
 
