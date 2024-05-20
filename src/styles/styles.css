@@ -41,6 +41,14 @@ section {
   border-radius: 1rem;
   box-shadow: -5px 3px 65px 3px rgba(0, 0, 0, 0.156);
   padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+section i {
+  font-size: 5rem;
+  color: hsl(259, 100%, 65%);
 }
 
 #card {

@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Age Calculator</title>
-    <link rel="stylesheet" href="./src/styles/styles.css">
-</head>
-<body>
-    <section>
-        <div id="card">
-            <div id="form-group">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Age Calculator</title>
+        <link rel="stylesheet" href="./src/styles/styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="shortcut icon" href="./src/assets/favicon-32x32.png" type="image/x-icon">
+    </head>
+    <body>
+        <section>
+            <div id="card">
+                <div id="form-group">
                 <div class="input-form">
                     <label for="day"> DAY </label>
-                    <input type="text" id="day" placeholder="DD">
+                    <input type="text" id="day" placeholder="DD" />
                 </div>
                 <div class="input-form">
                     <label for="month"> MONTH </label>
-                    <input type="text" id="month" placeholder="MM">
+                    <input type="text" id="month" placeholder="MM" />
                 </div>
                 <div class="input-form">
                     <label for="year"> YEAR </label>
-                    <input type="text" id="year" placeholder="YYYY">
+                    <input type="text" id="year" placeholder="YYYY" />
                 </div>
-            </div>
-            <div id="button-group">
-                <hr>
+                </div>
+                <div id="button-group">
+                <hr />
                 <button id="submit">
-                    <img src="./src/assets/icon-arrow.svg" alt="icon arrow">
+                    <img src="./src/assets/icon-arrow.svg" alt="icon arrow" />
                 </button>
-            </div>
-            <div id="result">
+                </div>
+                <div id="result">
                 <div>
                     <h1 id="age_result" class="numeric">--</h1>
                     <h1>years</h1>
@@ -42,9 +50,9 @@
                     <h1 id="day_result" class="numeric">--</h1>
                     <h1>days</h1>
                 </div>
+                </div>
             </div>
-        </div>
-    </section>
-    <script src="./src/scripts/script.js"></script>
-</body>
+        </section>
+        <script src="./src/scripts/script.js"></script>
+    </body>
 </html>

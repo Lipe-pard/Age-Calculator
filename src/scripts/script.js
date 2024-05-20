@@ -12,6 +12,7 @@ function calculateAge() {
     let birth_year = parseInt(document.querySelector('#year').value);
 
     let age = current_year - birth_year;
+    
     if(current_month < birth_month) {
         current_month = current_month + 12;
         age--;
@@ -19,7 +20,6 @@ function calculateAge() {
     if(current_day < birth_day) {
         current_month--;
         current_day = current_day + 30;
-        console.log('passou aqui', current_month)
     }
     let month = current_month - birth_month;
     let day = current_day - birth_day;
